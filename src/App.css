@@ -1,0 +1,23 @@
+/* ----------------- Swiper: ----------------- */
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  color: #808080;
+}
+
+.swiper .swiper-button-next:after,
+.swiper .swiper-button-prev:after {
+  font-size: 25px;
+}
+
+.swiper .swiper-button-prev {
+  top: 15px;
+  left: auto;
+  right: 45px;
+}
+
+.swiper .swiper-button-next {
+  top: 15px;
+  left: auto;
+  right: 0;
+}
