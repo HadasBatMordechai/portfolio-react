@@ -84,7 +84,17 @@ function App() {
   return (
     <>
       <AppNav />
-      <header className="bg-indigo-50 bg-[url('./assets/bg-pattern.png')] bg-size-[60px] px-8 md:px-10 lg:px-20 pb-8 md:pb-10 pt-12 md:pt-28 md:flex items-center">
+
+      <div className="absolute top-0 right-0 z-50 p-3 md:px-5 xmd:mt-8 font-light text-xs lg:text-sm">
+        More of a Vue person?
+        <a
+          href="https://hadasbatmordechai.github.io/vue"
+          className="block w-fit mx-auto mt-1 bg-indigo-200 hover:bg-indigo-300 transition-colors rounded-lg lg:rounded-xl px-1.5 py-0.5 lg:px-2.5 lg:py-1">
+          Try Vue version
+        </a>
+      </div>
+
+      <header className="bg-indigo-50 bg-[url('./assets/bg-pattern.png')] bg-size-[60px] px-8 md:px-10 lg:px-20 pb-8 md:pb-10 pt-16 md:pt-28 md:flex items-center">
         <div className="md:w-1/3">
           <img
             className="w-40 sm:w-48 lg:w-72 2xl:w-96 max-w-full mx-auto rounded-full aspect-square object-cover"
@@ -107,8 +117,6 @@ function App() {
             <p
               className={`${getAnimationClass('header')} animate__delay-2s font-light text-sm sm:text-base lg:text-lg 2xl:text-xl`}>
               Vue.js | JavaScript | Tailwind CSS
-              <br />
-              React & TypeScript ?
             </p>
             <div className="flex justify-center md:justify-start pt-5 lg:pt-10">
               <a
