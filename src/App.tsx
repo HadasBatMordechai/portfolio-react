@@ -20,7 +20,7 @@ import ObserveIntersection from './components/ObserveIntersection.tsx';
 import AppNav from './components/AppNav.tsx';
 
 function App() {
-  const projects = [] ?? [
+  const projects = [
     {
       name: 'Your Way - Ministry of Transport and Road Safety',
       link: 'https://your-way.org.il/he',
@@ -335,7 +335,7 @@ function App() {
 
       <section
         id="projects"
-        className="text-[0.65rem] sm:text-xs lg:text-sm bg-indigo-50 pb-5">
+        className="hidden text-[0.65rem] sm:text-xs lg:text-sm bg-indigo-50 pb-5">
         <h3 className="-mb-8 md:-mb-10">Selected projects</h3>
         <Swiper
           modules={[Navigation, A11y]}
