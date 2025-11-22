@@ -20,7 +20,7 @@ import ObserveIntersection from './components/ObserveIntersection.tsx';
 import AppNav from './components/AppNav.tsx';
 
 function App() {
-  const projects = [
+  const projects = [] ?? [
     {
       name: 'Your Way - Ministry of Transport and Road Safety',
       link: 'https://your-way.org.il/he',
